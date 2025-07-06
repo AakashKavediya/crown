@@ -1,4 +1,11 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=K2D&family=Kanit:wght@800&display=swap');
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -39,4 +46,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */

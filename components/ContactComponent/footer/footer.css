@@ -1,0 +1,122 @@
+.zeta-footer {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 3rem 0 1.5rem;
+  font-family: 'Arial', sans-serif;
+ 
+}
+
+.alpha-footer-container {
+  /* max-width: 1200px; */
+  width: 100%;
+  /* background-color: green; */
+  margin: 0 auto;
+  padding: 0 2rem;
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.beta-footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.gamma-footer-column {
+  display: flex;
+  flex-direction: column;
+  /* background-color: orange; */
+  padding-left: 20px;
+}
+
+.delta-branding {
+  margin-bottom: 1.5rem;
+}
+
+.epsilon-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.zeta-slogan {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.theta-footer-heading {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.eta-footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction: row;
+    /* width: 350px; */
+}
+.eta-footer-links li {
+  margin: 5px;
+  cursor: pointer;
+  width: 150px;
+  list-style: none;
+  height: 150px;
+  background-color: #ededed;
+  
+  transition: color 0.2s;
+}
+
+.eta-footer-links li:hover {
+  color: #0066cc;
+}
+
+.iota-copyright {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #e1e1e1;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+#upperFooter{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    padding-top: 0px;
+}
+#upperFooter ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+    text-align: left;
+}
+#upperFooter ul li{
+    padding: 5px;
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+  .beta-footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .zeta-footer {
+    padding: 2rem 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .beta-footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
