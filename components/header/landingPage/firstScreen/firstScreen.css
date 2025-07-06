@@ -2,7 +2,7 @@
 
 #Container{
     height: 100vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /* background-color: green; */
 }
 
@@ -17,6 +17,7 @@
     position: absolute;
     top: 42%;
     left: 30;
+    text-align: left;
 }
 
 #mainHeading .typing-text {
