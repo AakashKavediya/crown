@@ -8,7 +8,7 @@ const FirstScreen = () => {
         <div id='Container' >
             <main>
                 <div id="mainContent">
-                <div id='mainHeading' >
+                <div id='mainHeadingg' >
                     <h2>
                         <TypingText text="EMPOWERING STUDENTS THROUGH AMATEUR RADIO & WIRELESS TECHNOLOGY" speed={40} />
                     </h2>

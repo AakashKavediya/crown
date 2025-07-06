@@ -12,15 +12,15 @@
     align-items: center;
     justify-content: center;
 }
-#mainHeading{
+#mainHeadingg{
     width: 40%;
     position: absolute;
     top: 42%;
-    left: -400;
+    left: 30;
     text-align: left;
 }
 
-#mainHeading .typing-text {
+#mainHeadingg .typing-text {
   font-family: "Kanit", sans-serif;
   font-size: 35px;
   font-weight: 700;
@@ -36,7 +36,7 @@
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
 }
-#mainHeading p{
+#mainHeadingg p{
     color: black;
     font-size: 18px;
     font-weight: 400;
@@ -58,7 +58,7 @@
     align-items: center;
     justify-content: center;
 }
-#mainHeading{
+#mainHeadingg{
     width: 40%;
     position: absolute;
     top: 42%;
@@ -66,12 +66,12 @@
     font-size: 10px;
 }
 
-#mainHeading .typing-text {
+#mainHeadingg .typing-text {
   font-family: "Kanit", sans-serif;
   font-size: 25px;
   font-weight: 700;
 }
-#mainHeading p{
+#mainHeadingg p{
   font-size: 16px;
 }
 .typing-cursor {
@@ -91,7 +91,7 @@
     align-items: center;
     justify-content: center;
 }
-#mainHeading{
+#mainHeadingg{
     width: 80%;
     position: absolute;
     top: 70%;
@@ -105,12 +105,12 @@
     justify-content: center;
 }
 
-#mainHeading .typing-text {
+#mainHeadingg .typing-text {
   font-family: "Kanit", sans-serif;
   font-size: 25px;
   font-weight: 700;
 }
-#mainHeading p{
+#mainHeadingg p{
   font-size: 16px;
 }
 .typing-cursor {
@@ -129,7 +129,7 @@
     align-items: center;
     justify-content: center;
 }
-#mainHeading{
+#mainHeadingg{
     width: 80%;
     position: absolute;
     top: 65%;
@@ -143,12 +143,12 @@
     justify-content: center;
 }
 
-#mainHeading .typing-text {
+#mainHeadingg .typing-text {
   font-family: "Kanit", sans-serif;
   font-size: 25px;
   font-weight: 700;
 }
-#mainHeading p{
+#mainHeadingg p{
   font-size: 16px;
 }
 .typing-cursor {
