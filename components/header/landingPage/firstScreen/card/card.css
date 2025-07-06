@@ -49,6 +49,6 @@
 
 @media (max-width: 480px) {
   .card-swap-container {
-    transform: scale(0.65) translate(0%, -120%);
+    transform: scale(0.65) translate(0%, -100%);
   }
 }
