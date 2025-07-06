@@ -53,21 +53,21 @@ const Header = () => {
           </svg>
         </button>
         <nav className="panel-links">
-          <a href="#" onClick={() => setMenuOpen(false)}>Home</a>
-          <a href="#" onClick={() => setMenuOpen(false)}>About</a>
+          <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
+          <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
 
           <div className="menu-dropdown">
             <button className="menu-button">HAM</button>
             <div className="dropdown-items">
-              <a href="#" onClick={() => setMenuOpen(false)}>About HAM</a>
-              <a href="#" onClick={() => setMenuOpen(false)}>ARSI</a>
-              <a href="#" onClick={() => setMenuOpen(false)}>IARU</a>
-              <a href="#" onClick={() => setMenuOpen(false)}>Our HAMS</a>
-              <a href="#" onClick={() => setMenuOpen(false)}>Wanna be HAM</a>
+              <Link href="/ham/aboutham" onClick={() => setMenuOpen(false)}>About HAM</Link>
+              <Link href="/ham/arsi" onClick={() => setMenuOpen(false)}>ARSI</Link>
+              <Link href="/ham/iaru" onClick={() => setMenuOpen(false)}>IARU</Link>
+              <Link href="/ham/ourhams" onClick={() => setMenuOpen(false)}>Our HAMS</Link>
+              <Link href="/ham/wannabeham" onClick={() => setMenuOpen(false)}>Wanna be HAM</Link>
             </div>
           </div>
 
-          <a href="#" onClick={() => setMenuOpen(false)}>Contact Us</a>
+          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
         </nav>
       </div>
     </div>
