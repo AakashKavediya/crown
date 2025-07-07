@@ -7,6 +7,7 @@ import React, {
   useEffect,
   useMemo,
   useRef,
+  Modal,
 } from "react";
 import gsap from "gsap";
 import "./card.css";
@@ -219,6 +220,7 @@ const CardSwap = ({
       style={{ width, height }}
     >
       {rendered}
+      
     </div>
   );
 };

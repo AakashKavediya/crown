@@ -33,6 +33,16 @@
   animation: blink 1s steps(1) infinite;
 }
 
+/* MOdal */
+#modal{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+  display: none;
+}
 @keyframes blink {
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
@@ -48,6 +58,65 @@
     display: flex;
     float: right;
     background-color: rgb(255, 0, 43);
+}
+#PopContainer{
+  background-color: white;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+  display: flex;
+  flex-direction: row;
+}
+#popHeadingText{
+  padding: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-family: "K2D", sans-serif;
+  font-weight: 900;
+  color: #111111;
+  font-size: 24px;
+}
+#popHeadingContainer{
+  flex: 1;
+}
+#popContent{
+  padding: 10px;
+  flex: 1;
+}
+#popData{
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  font-size: 14px;
+  font-family: "K2D", sans-serif;
+} 
+#popButton{
+  color: white;
+  background-color: gray;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  right: 1%;
+  font-family: "K2D", sans-serif;
+  width: 49%;
+}
+#popImage{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
 }
 @media(max-width:1200px){
   #Container{
@@ -82,6 +151,22 @@
   width: 1ch;
   animation: blink 1s steps(1) infinite;
 }
+#PopContainer{
+  background-color: white;
+  width: 70vw;
+  height: 60vh;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+  display: flex;
+  flex-direction: row;
+}
+
 }
 
 @media(max-width:850px){
@@ -136,7 +221,7 @@
 #mainHeadingg{
     width: 80%;
     position: absolute;
-    top: 65%;
+    top: 15%;
     text-align: justify;
     margin-left: 0px;
     left: 0;
@@ -160,5 +245,69 @@
   display: inline-block;
   width: 1ch;
   animation: blink 1s steps(1) infinite;
+}
+#PopContainer{
+  background-color: white;
+  width: 80vw;
+  min-height: 70vh;
+  max-height: 80vh;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15vh;
+  display: flex;
+  flex-direction: column;
+}
+#popHeadingText{
+  padding: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-family: "K2D", sans-serif;
+  font-weight: 900;
+  color: #111111;
+  font-size: 24px;
+}
+#popHeadingContainer{
+  flex: 1;
+}
+#popContent{
+  padding: 10px;
+  flex: 1;
+}
+#popData{
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+  font-size: 14px;
+  font-family: "K2D", sans-serif;
+} 
+#popButton{
+  color: white;
+  background-color: gray;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 15px;
+  left: 6%;
+  right: 0;
+  font-family: "K2D", sans-serif;
+  width: 70vw;
+  /* border-top-left-radius: 0px; */
+  /* border-top-right-radius: 0px; */
+  
+}
+#popImage{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
 }
 }
