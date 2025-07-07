@@ -245,7 +245,7 @@ ul li {
     padding-top: 20px;
   }
   #extra{
-    display: none;
+    height: 80px;
   }
   .flat article img {
     border-radius: 15px;

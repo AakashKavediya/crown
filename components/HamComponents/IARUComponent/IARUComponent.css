@@ -69,4 +69,7 @@ p{
     #extra{
         height: 80px;
     }
+    .contentSection{
+        padding: 5px;
+    }
 }

@@ -42,4 +42,8 @@ ol li ul{
     #extra{
         height: 80px;
     }
+.contentArticle {
+    padding: 5px;
+}
+
 }
