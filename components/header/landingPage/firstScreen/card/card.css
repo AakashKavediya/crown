@@ -6,12 +6,13 @@
   /* transform: translate(0%, 0%); */
   transform-origin: bottom right;
   perspective: 900px;
+  transform: scale(0.90)  translate(-5%, 0%);
   overflow: visible;
 }
 
 .card {
   position: absolute;
-  top: 24%;
+  top: 30%;
   right: -30%;
   border-radius: 12px;
   border: 1px solid #fff;

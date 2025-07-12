@@ -62,6 +62,7 @@ const Header = () => {
               <Link href="/ham/aboutham" onClick={() => setMenuOpen(false)}>About HAM</Link>
               <Link href="/ham/arsi" onClick={() => setMenuOpen(false)}>ARSI</Link>
               <Link href="/ham/iaru" onClick={() => setMenuOpen(false)}>IARU</Link>
+              <Link href="/ham/swl" onClick={() => setMenuOpen(false)}>SWL</Link>
               <Link href="/ham/ourhams" onClick={() => setMenuOpen(false)}>Our HAMS</Link>
               <Link href="/ham/wannabeham" onClick={() => setMenuOpen(false)}>Wanna be HAM</Link>
             </div>

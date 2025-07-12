@@ -8,7 +8,7 @@ const MemberDirectory = () => {
             <br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     
-
+    <h2 id='heading' >Our Hams</h2>
       <article className="deltaContentBlock">
         <table className="epsilonDataTable">
           <thead>

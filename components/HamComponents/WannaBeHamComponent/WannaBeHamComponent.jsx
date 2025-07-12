@@ -7,10 +7,10 @@ const ASOCExam = () => {
         <div id="extra">
             <br /><br /><br /><br /><br />
         </div>
-      <h2 className="alphaHeading">ASOC EXAM</h2>
+      <h2 className="gammaArticleContent deltaTitle ">ASOC EXAM</h2>
       <div className="betaContentWrapper">
         <article className="gammaArticleContent">
-          <h3 className="deltaTitle">The Journey of Crown: How It Was Established</h3>
+          <h3 className="alphaHeading">The Journey of Crown: How It Was Established</h3>
           <br />
           <p><b className="epsilonBoldText">Inspiration Behind Crown's Formation</b></p>
           <p>The birth of Crown (Club for Radio Operations and Wireless Network) was triggered by the growing enthusiasm and excitement of students and faculty towards radio communications, satellite technology, and RF engineering. Of particular interest was among the student satellite team members, who acknowledged the important role ham radio plays in satellite communication, emergency networks, and experimental RF research.

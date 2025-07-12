@@ -231,7 +231,7 @@ ul li {
   }
 
   #heading {
-    font-family: "Jockey One", serif;
+    font-family: "Kanit", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
@@ -245,7 +245,7 @@ ul li {
     padding-top: 20px;
   }
   #extra{
-    height: 80px;
+    height: 60px;
   }
   .flat article img {
     border-radius: 15px;

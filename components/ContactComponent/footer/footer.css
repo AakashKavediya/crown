@@ -119,4 +119,7 @@
   .beta-footer-grid {
     grid-template-columns: 1fr;
   }
+  .eta-footer-links li{
+    width: 45%;
+  }
 }

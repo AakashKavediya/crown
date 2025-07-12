@@ -186,6 +186,7 @@ nav a {
   }
   .menu-toggle {
     display: block;
+    top: 10;
   }
   .main-content {
     flex-direction: row;

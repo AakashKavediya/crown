@@ -18,7 +18,7 @@ const SecondScreen = () => {
                 </div> */}
                 <h2 id="secondaryHeading">CROWN: Student-Led Radio Revolution</h2>
                 <div id="SecondaryContent">
-                <ScrollReveal
+                {/* <ScrollReveal
                 baseOpacity={0}
                 enableBlur={true}
                 baseRotation={10}
@@ -33,10 +33,10 @@ const SecondScreen = () => {
                 blurStrength={10}
                 >
                 CROWN combines theoretical knowledge with hands-on experience by allowing students to create actual radio systems, engage in ham radio communications on national and international levels, and gain insights into sophisticated communication systems.  
-                </ScrollReveal>
+                </ScrollReveal> */}
                 </div>
-                {/* <p id='SecondaryContent' >The Club for Radio Operations and Wireless Network (CROWN) is a student-managed club that seeks to foster the practice of amateur radio communication, radio frequency engineering, and wireless networking among students. It was formed as an attempt to leverage the significance of radio communication technology in modern engineering, emergency services, and global connectivity by serving as a center of technical education and innovative hands-on work in wireless technology.</p> */}
-                {/* <p id='SecondaryContent'>CROWN combines theoretical knowledge with hands-on experience by allowing students to create actual radio systems, engage in ham radio communications on national and international levels, and gain insights into sophisticated communication systems.</p> */}
+                <p id='SecondaryContent' >The Club for Radio Operations and Wireless Network (CROWN) is a student-managed club that seeks to foster the practice of amateur radio communication, radio frequency engineering, and wireless networking among students. It was formed as an attempt to leverage the significance of radio communication technology in modern engineering, emergency services, and global connectivity by serving as a center of technical education and innovative hands-on work in wireless technology.</p>
+                <p id='SecondaryContent'>CROWN combines theoretical knowledge with hands-on experience by allowing students to create actual radio systems, engage in ham radio communications on national and international levels, and gain insights into sophisticated communication systems.</p>
             </div>
             <div id="SecondaryBoxContainer">
                 <div id="odd">

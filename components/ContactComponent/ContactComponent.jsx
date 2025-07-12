@@ -67,7 +67,7 @@ const ContactForm = () => {
 
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label className="form-label">YOUR NAME</label>
+            <label className="form-label">YOUR NAME*</label>
             <div className="name-fields">
               <input
                 type="text"
@@ -91,7 +91,7 @@ const ContactForm = () => {
           </div>
 
           <div className="form-group">
-            <label className="form-label">EMAIL ADDRESS</label>
+            <label className="form-label">EMAIL ADDRESS*</label>
             <input
               type="email"
               name="email"
@@ -104,7 +104,7 @@ const ContactForm = () => {
           </div>
 
           <div className="form-group">
-            <label className="form-label">PHONE NUMBER</label>
+            <label className="form-label">PHONE NUMBER*</label>
             <input
               type="tel"
               name="phone"
@@ -112,15 +112,16 @@ const ContactForm = () => {
               className="form-input"
               value={formData.phone}
               onChange={handleChange}
+              required
             />
           </div>
 
           <div className="form-group">
-            <label className="form-label">YOUR MESSAGE</label>
+            <label className="form-label">YOUR QUERY*</label>
             <textarea
               name="message"
               className="form-textarea"
-              placeholder='Enter your message here'
+              placeholder='Enter your query here'
               rows="5"
               value={formData.message}
               onChange={handleChange}
