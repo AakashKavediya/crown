@@ -5,11 +5,11 @@ const IARUInfo = () => {
   return (
     <main>
       <div id="extra">
-        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br />
       </div>
 
       <article className="contentSection">
-        <h2><p>IARU</p></h2>
+        <h1 id='IARUheading' >IARU</h1>
         <br />
         <p>The IARU is the worldwide organization that represents amateur radio operators. It was founded in 1925 and, since then, the aim of IARU has been the protection and promotion of amateur radio interests, frequency coordination, and support of radio spectrum for non-commercial, experimental, and emergency communication.</p>
         <br />

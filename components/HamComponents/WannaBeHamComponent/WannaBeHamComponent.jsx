@@ -5,7 +5,7 @@ const ASOCExam = () => {
   return (
     <main className="zetaMainContainer">
         <div id="extra">
-            <br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
       <h2 className="gammaArticleContent deltaTitle ">ASOC EXAM</h2>
       <div className="betaContentWrapper">
