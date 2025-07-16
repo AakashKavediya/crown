@@ -18,10 +18,15 @@
 }
 
 .beta-footer-grid {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
   margin-bottom: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gamma-footer-column {
@@ -29,6 +34,8 @@
   flex-direction: column;
   /* background-color: orange; */
   padding-left: 20px;
+  min-width: 350px;
+  max-width: 450px;
 }
 
 .delta-branding {
@@ -157,6 +164,10 @@
 @media (max-width: 480px) {
   .beta-footer-grid {
     grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
   .eta-footer-links li{
     width: 45%;

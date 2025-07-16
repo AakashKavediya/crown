@@ -1,0 +1,203 @@
+/* General Styles */
+#heading {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Article Styles */
+  .flat article img {
+    border-radius: 15px;
+    height: 200px;
+    margin-left: 10px;
+    float: right;
+  }
+  
+  .flat article h3 {
+    margin-bottom: 10px;
+  }
+  
+  .flat article p {
+    font-family: "K2D", serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+    color: gray;
+  }
+  
+  .flat article b {
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+  }
+  
+  /* Layout Sections */
+  #article2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  #proud, #activies {
+    width: 450px;
+    padding: 10px;
+    font-family: "Kanit", serif;
+  }
+  
+  #proud {
+    padding-right: 20px;
+  }
+  
+  #proud h3, #activies h3 {
+    margin-bottom: 10px;
+  }
+  
+  #proud img, #activies img {
+    height: 180px;
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #proud p, #activies p {
+    color: gray;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  #activies ol li {
+    color: gray;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  #article3, #article4 {
+    margin-top: 50px;
+  }
+  
+  #article3 b, #article4 b {
+    color: orange;
+    font-size: 18px;
+    font-family: "Kanit", serif;
+  }
+  
+  #article3 p, #article4 p {
+    font-family: "Kanit", serif;
+    color: gray;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  /* Link Section */
+  #linkSection {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #linkSection #linkNav {
+    padding-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #linkSection #linkNav a {
+    text-decoration: none;
+    font-family: "Kanit", serif;
+    color: white;
+    background-color: gray;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 5px;
+  }
+  
+  /* Block Container */
+  #blockContainer {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  #blockContainer #oddBlock, #blockContainer #evenBlock {
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+  }
+  
+  #blockContainer #oddBlock p {
+    text-align: justify;
+  }
+  
+  #blockContainer #oddBlock h3 {
+    font-weight: 600;
+    font-family: "Kanit", serif;
+    margin: 5px;
+  }
+  
+  #blockContainer #evenBlock {
+    background-color: whitesmoke;
+    border-radius: 15px;
+  }
+  
+  /* Typography */
+  h3 {
+    font-family: "Kanit", serif;
+  }
+  
+  #title1 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  ul li {
+    list-style: square;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 850px) {
+    body {
+      overflow-x: hidden;
+    }
+  
+    #blockContainer {
+      flex-direction: column;
+    }
+  
+    #blockContainer #oddBlock, #blockContainer #evenBlock {
+      width: 95%;
+      padding: 15px;
+      margin: 5px;
+    }
+  
+    #article2 {
+      flex-direction: column;
+    }
+  
+    #proud, #activies {
+      width: 100%;
+    }
+  }
