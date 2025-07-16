@@ -46,7 +46,7 @@ const ContactForm = () => {
   return (
     <div>
         <div id="extra">
-            <br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />  
         </div>
     <div className="form-container">
         
@@ -71,13 +71,14 @@ const ContactForm = () => {
             <div className="name-fields">
               <input
                 type="text"
+                
                 name="firstName"
                 placeholder="First name"
                 className="form-input"
                 value={formData.firstName}
                 onChange={handleChange}
                 required
-              />
+              /> 
               <input
                 type="text"
                 name="lastName"

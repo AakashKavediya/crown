@@ -1,8 +1,41 @@
-import React from 'react';
+'use client'
+import React,{useState} from 'react';
 import './footer.css';
 import Link from 'next/link';
 import { FaInstagram, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 const Footer = () => {
+
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const toggleDropdown = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
+    const listItems = [
+    "VHF Repeater : Location : West Mumbai",
+    "VHF Repeater : Location : Pune, Lohegaon, Near airport",
+    "VHF Repeater : Location : Pune, Arai Hill",
+  ];
+
+  const repeaterData = [
+    {
+      frequency: "145.400 MHz",
+      callsign: "VU2BPB",
+      Station: "Mumbai Amateur Radio Institute",
+    },
+    {
+      frequency: "144.800 MHz",
+      callsign: "VU2ETD",
+      Station: "Pune Hams - Ajeenkya DY Patil University",
+    },
+    {
+      frequency: "434.100 MHz",
+      callsign: "VU2DYQ",
+      Station: "Pune Hams - Ajeenkya DY Patil University",
+    },
+  ];
+
+ 
   return (
     <footer className="zeta-footer">
   
@@ -24,15 +57,23 @@ const Footer = () => {
 
                {/* Column 4 */}
           <div className="gamma-footer-column">
-            <h4 className="theta-footer-heading">Amateur Radio HF/VHF/UHF Repeater Stations in India :
-Compiled by Jose Jacob, VU2JOS,National Institute of Amateur Radio,NIAR.Please click the link below.</h4>
-            <ul>
-                <li><p>For VHF/UHF Repeaters :Location Wise:</p></li>
-                <li><p>For VHF/UHF Repeaters :Frequency Wise:</p></li>
-                <li><p>For VHF/UHF Repeaters :Callsign Wise:</p></li>
-                <li><p>For VHF/UHF Nets :Nets Time Wise:</p></li>
-                <li><p>For VHF/UHFNets:Location Wise:</p></li>
-            </ul>
+            <h4 className="theta-footer-heading">Amateur Radio HF/VHF/UHF Repeater Stations in India :</h4>
+              <ul className="dropdown-list">
+      {listItems.map((item, index) => (
+        <li key={index} className="dropdown-item">
+          <p className="dropdown-button" onClick={() => toggleDropdown(index)}>
+            {item}
+          </p>
+          {activeIndex === index && (
+            <div className="dropdown-content">
+              <p><strong>Frequency:</strong> {repeaterData[index].frequency}</p>
+              <p><strong>Callsign:</strong> {repeaterData[index].callsign}</p>
+              <p><strong>Station:</strong> {repeaterData[index].Station}</p>
+            </div>
+          )}
+        </li>
+      ))}
+    </ul>
             <div id="followLinkCOontaner">
                 <br /><br />
                 <b>Follow Us </b><br /><br />

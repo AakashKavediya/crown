@@ -27,6 +27,7 @@ const Header = () => {
                   <Link href="/ham/aboutham">About HAM</Link>
                   <Link href="/ham/arsi">ARSI</Link>
                   <Link href="/ham/iaru">IARU</Link>
+                  <Link href="/ham/swl">SWL</Link>
                   <Link href="/ham/ourhams">Our HAMS</Link>
                   <Link href="/ham/wannabeham">Wanna be HAM</Link>
                 </div>

@@ -10,7 +10,7 @@ const ARSIInfo = () => {
    
       
       <article className="contentArticle">
-        <h2>ARSI</h2>
+        <h2>ARSI</h2><br />
         <p>The Amateur Radio Society of India (ARSI) serves as the national body for amateur radio in India. Based at New Delhi, ARSI was formed to promote and regulate amateur radio activities and serves as the primary link between Indian ham radio operators and the international regulatory bodies like the <Link href="/ham/iaru">International Amateur Radio Union (IARU)</Link>. This voluntary organization works for the advancement of science in the communication sector and the establishment of a strong amateur radio culture. Also, the organization helps in emergency communications efforts all over India.</p>
         <br />
         

@@ -11,7 +11,13 @@
     font-weight: 300;
     color: grey;
 }
-
+#listHeading{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "K2D", sans-serif;
+    
+}
 .introSection h1 {
     margin-bottom: 20px;
     color: black;
@@ -29,6 +35,7 @@ p {
     font-size:18px;
       font-family: "K2D", sans-serif;
 
+      margin-top: 15px;
 }
 
 .rightContainer {
