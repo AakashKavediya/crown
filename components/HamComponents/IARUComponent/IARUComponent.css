@@ -51,7 +51,8 @@ ul li{
 }
 .featureList {
     list-style-type: square;
-    padding-left: 20px;
+    padding-left: 30px;
+    margin-top: 5px;
       font-family: "K2D", sans-serif;
 }
 h2, h2 p{

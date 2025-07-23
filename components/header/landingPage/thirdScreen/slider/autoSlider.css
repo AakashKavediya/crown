@@ -98,7 +98,7 @@
     margin-right: auto;
     padding: 10px;
     text-align: center;
-    background-color: darkorange;
+    background-color: rgb(104, 153, 225);
     color: white;
     margin-bottom: 30px;
 }
@@ -139,7 +139,7 @@
 }
 .read-more-btn {
   margin-top: auto;
-  background-color: darkorange;
+  background-color: rgb(104, 153, 225);
   color: white;
   padding: 6px 12px;
   border: none;
@@ -151,7 +151,7 @@
   display: block;
 }
 .read-more-btn:hover {
-  background-color: #d76a00;
+  background-color: rgb(60, 110, 184);
 }
 
 @media (max-width: 768px) {

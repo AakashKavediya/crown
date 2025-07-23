@@ -16,7 +16,7 @@ const IARUInfo = () => {
         <p>The amateur radio community-regional subdivisions of IARU are:</p>
         <p>IARU Region 1 - Europe, Africa, the Middle East and Northern Asia</p>
         <p>IARU Region 2 - North and South Americas</p>
-        <p>IARU Region 3 - Asia-Pacific, including India, Japan, Australia, and Southeast Asia.</p>
+        <p>IARU Region 3 - Asia-Pacific, including India, Japan, Australia, and Southeast Asia.</p><br />
         <p>Policies in each region are made to be in alignment with ITU Regulations in order to have smooth operation and fair use of radio frequencies across the globe.
           The band plan for the International Amateur Radio Union (IARU) Region 3 offers a suggested range of frequency divisions for amateur (ham) radio operators in these nations. These divisions aim to reduce interference, encourage effective spectrum use, and align amateur radio operations throughout the region.
         </p>
@@ -34,97 +34,97 @@ const IARUInfo = () => {
         </thead>
         <tbody>
           <tr>
-            <td>5, LF</td>
+            <td>LF</td>
             <td>2200 metres</td>
             <td>135.7 kHz</td>
             <td>137.8 kHz</td>
           </tr>
           <tr>
-            <td>6, MF</td>
+            <td>MF</td>
             <td>630 metres</td>
             <td>472 kHz</td>
             <td>479 kHz</td>
           </tr>
           <tr>
-            <td>6, MF</td>
+            <td> MF</td>
             <td>160 metres</td>
             <td>1.8 MHz</td>
             <td>2.0 MHz</td>
           </tr>
           <tr>
-            <td>7, HF</td>
+            <td>HF</td>
             <td>80 metres</td>
             <td>3.5 MHz</td>
             <td>3.9 MHz</td>
           </tr>
           <tr>
-            <td>7, HF</td>
+            <td>HF</td>
             <td>60 metres</td>
             <td>5.351.5 MHz</td>
             <td>5.366.5 MHz</td>
           </tr>
           <tr>
-            <td>7, HF</td>
+            <td>HF</td>
             <td>40 metres</td>
             <td>7.0 MHz</td>
             <td>7.3 MHz</td>
           </tr>
           <tr>
-            <td>7, HF</td>
+            <td>HF</td>
             <td>30 metres</td>
             <td>10.1 MHz</td>
             <td>10.15 MHz</td>
           </tr>
           <tr>
-            <td>7, HF</td>
+            <td>HF</td>
             <td>20 metres</td>
             <td>14 MHz</td>
             <td>14.35 MHz</td>
           </tr>
           <tr>
-            <td>7, HF</td>
+            <td>HF</td>
             <td>17 metres</td>
             <td>18.068 MHz</td>
             <td>18.168 MHz</td>
           </tr>
           <tr>
-            <td>7, HF</td>
+            <td>HF</td>
             <td>15 metres</td>
             <td>21 MHz</td>
             <td>21.45 MHz</td>
           </tr>
           <tr>
-            <td>7, HF</td>
+            <td>HF</td>
             <td>12 metres</td>
             <td>24.89 MHz</td>
             <td>24.99 MHz</td>
           </tr>
           <tr>
-            <td>7, HF</td>
+            <td>HF</td>
             <td>10 metres</td>
             <td>28 MHz</td>
             <td>29.7 MHz</td>
           </tr>
           <tr>
-            <td>8, VHF</td>
+            <td>VHF</td>
             <td>6 metres</td>
             <td>50 MHz</td>
             <td>54 MHz</td>
           </tr>
           <tr>
-            <td>8, VHF</td>
+            <td>VHF</td>
             <td>2 metres</td>
             <td>144 MHz</td>
             <td>148 MHz</td>
           </tr>
           <tr>
-            <td>9, UHF</td>
+            <td>UHF</td>
             <td>70 centimetres</td>
             <td>434 MHz</td>
             <td>438 MHz</td>
           </tr>
           <tr>
-            <td>9, UHF</td>
+            <td>UHF</td>
             <td>23 centimetres</td>
             <td>1240 MHz</td>
             <td>1300 MHz</td>
