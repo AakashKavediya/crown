@@ -140,6 +140,7 @@ const Slider = () => {
                 <button id="popButton" aria-label="Close modal" onClick={closeModal}>
                   Close
                 </button>
+                <br />
               </div>
             </div>
           </div>

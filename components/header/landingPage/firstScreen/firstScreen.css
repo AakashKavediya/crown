@@ -41,7 +41,9 @@
   background-size: cover;
   background-color: transparent;
   backdrop-filter: blur(2px);
-  display: none;
+  display: none;  
+  align-items: center;
+  justify-content: center;
 }
 @keyframes blink {
   0%, 50% { opacity: 1; }
@@ -247,7 +249,7 @@
   animation: blink 1s steps(1) infinite;
 }
 #PopContainer{
-  background-color: white;
+  background-color: rgb(213, 24, 24);
   width: 80vw;
   min-height: 70vh;
   max-height: 80vh;
@@ -256,11 +258,14 @@
   margin-left: auto;
   margin-right: auto;
   position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
   left: 0;
   right: 0;
-  top: 15vh;
+  top: 10;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 #popHeadingText{
   padding: 5px;
@@ -272,11 +277,14 @@
   font-size: 24px;
 }
 #popHeadingContainer{
-  flex: 1;
+  /* flex: 1; */
+  height: 30%;
+  width: 100%;
 }
 #popContent{
   padding: 10px;
-  flex: 1;
+  /* flex: 1; */
+  height: 60%;
 }
 #popData{
   display: flex;
@@ -295,8 +303,8 @@
   border: none;
   outline: none;
   border-radius: 10px;
-  position: absolute;
-  bottom: 15px;
+  position: static;
+  bottom: 0px;
   left: 6%;
   right: 0;
   font-family: "K2D", sans-serif;
@@ -308,6 +316,6 @@
 #popImage{
   height: 100%;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 }
