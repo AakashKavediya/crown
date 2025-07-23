@@ -14,26 +14,26 @@ const AboutUs = () => {
           <br />
           <p><b><b><b>Inspiration Behind Crown's Formation</b></b></b></p>
           <p>The birth of Crown (Club for Radio Operations and Wireless Network) was triggered by the growing enthusiasm and excitement of students and faculty towards radio communications, satellite technology, and RF engineering. Of particular interest was among the student satellite team members, who acknowledged the important role ham radio plays in satellite communication, emergency networks, and experimental RF research.
-          </p>
+          </p><br />
           <p>Faculty and students had an extensive discussion during August and September 2019, on the possible pros and cons of an amateur radio club, including:
-          </p>
-          <ul>
+          </p><br />
+          <ul id='unTitledList_about'>
             <li><p>Current radio communications for telemetry and tracking in satellite missions.</p></li>
             <li><p>Amateur radio in emergency response and disaster management.</p></li>
             <li><p>Experiential learning with wireless technology, signal processing, and antenna design.</p></li>
             <li><p>A chance to join the international community of ham radio operators and participate in world-wide events.</p></li>
-          </ul>    
+          </ul>    <br />
           <p>The faculty and students gathered momentum behind a formal proposal, the formation of a duly constituted amateur radio club within the institution. The proposal found support amongst the faculty members from the departments of electronics, telecommunications, and RF engineering since they saw therein a bridge between theory and practice in radio frequency communication.  
           </p>
           <p>After several meetings and discussions, a club idea was presented to the administration for approval. The students and faculty decided on five names from which to vote as the club needed to have a strong identity.
-          </p>
+          </p><br />
           <p>On October 11, 2019, Dr. Suresh Ukrande, the former principal, officially named the Club Crown after having chosen it from the top three names that had obtained the highest vote. The name of the club is Crown, which stands for Club for Radio Operations and Wireless Network. The meaning it represents is:
-          </p>
-          <ul>
+          </p><br />
+          <ul id='unTitledList_about' >
             <li><p>Its determination towards excellence in radio communication.</p></li>
             <li><p>Its devotion to innovation and leadership in wireless networking.</p></li>
             <li><p>It aims to be on the front line of RF and amateur radio advancements.</p></li>
-          </ul>
+          </ul><br />
           <p>With a name in place and a guarantee of support from the faculty, Crown was formed as an official student amateur radio club. 
           </p>
           <br />
@@ -63,7 +63,7 @@ const AboutUs = () => {
           </div>
           <br /><br /><br /><br />
           <h3>OBJECTIVES OF CROWN CLUB:</h3>
-          <ul>
+          <ul id='unTitledList_about' >
             <li><p> Training students in long-distance and low-power (QRP) radio communication.</p></li>
             <li><p> Building skills in VHF/UHF bands utilized for ground stations in satellite operations.</p></li>
             <li><p> Promoting involvement in amateur radio satellite tracking and future space missions.</p></li>

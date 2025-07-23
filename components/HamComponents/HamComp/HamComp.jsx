@@ -15,7 +15,7 @@ const HamRadioHistory = () => {
             <h6 className="sectionTitle"></h6>
             
             <h6>ABOUT HAM RADIO</h6>
-            <p><b style={{color: "#333333"}}>What is Ham?</b></p>
+            <p><b style={{color: "#333333", fontWeight:900}}>What is Ham?</b></p>
             <p>Ham radio or amateur radio is a non-commercial radio communication service that allows licensed operators to experiment in radio technology, reach worldwide contacts, and provide emergency communications during disasters. Ham radio is not commercial broadcasting or cellular communication. It is a two-way interactive medium by which operators converse using speech, Morse code (CW), and digital modes over high-frequency (HF), very high-frequency (VHF), and ultra-high-frequency (UHF) bands.
             </p>
             <p>Ham radio is often seen as the "original social network," one with connections that transcend the internet based systems. Today it plays an important role in scientific research, disaster management, and, indeed, space exploration by means of amateur radio satellites and ISS communication.  

@@ -91,16 +91,16 @@ const FirstScreen = () => {
           {isModalOpen && (
             <div id='modal' style={{ display: 'block' }}>
               <div>
-                <br /><br /><br /><br /><br />
+                <br /><br /><br />
                 <div id='PopContainer' >
                   <div id="popHeadingContainer">
                   <img src={selectedCard?.image} alt="Loading..." id='popImage' />
-                    
                   </div>  
                   <div id="popContent">
                   <h3 id='popHeadingText'>{selectedCard?.heading}</h3>
                     <p id='popData' >{selectedCard?.longData}</p>
                     <button id='popButton' onClick={closeModal}> Close</button>
+                    <br />
                   </div>
                 </div>
                 

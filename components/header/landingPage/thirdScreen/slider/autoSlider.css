@@ -98,7 +98,7 @@
     margin-right: auto;
     padding: 10px;
     text-align: center;
-    background-color: darkorange;
+    background-color: rgb(104, 153, 225);
     color: white;
     margin-bottom: 30px;
 }
@@ -139,7 +139,7 @@
 }
 .read-more-btn {
   margin-top: auto;
-  background-color: darkorange;
+  background-color: rgb(104, 153, 225);
   color: white;
   padding: 6px 12px;
   border: none;
@@ -151,7 +151,7 @@
   display: block;
 }
 .read-more-btn:hover {
-  background-color: #d76a00;
+  background-color: rgb(60, 110, 184);
 }
 
 @media (max-width: 768px) {
@@ -198,11 +198,13 @@
     align-items: center;
     justify-content: flex-end;
     position: static;
+    padding-bottom: 20px;
   }
   .read-more-btn {
-    background-color: darkorange;
+    background-color: rgb(104, 153, 225);
     color: white;
     padding: 6px 12px;
+    margin-top: 10px;
     border: none;
     border-radius: 6px;
     font-family: "K2D", sans-serif;
@@ -215,20 +217,20 @@
   }
   #popData{
     overflow-y: scroll;
-    min-height: 40vh;
-    max-height: 50vh;
+    height: max-content;
+    margin-bottom: 10px;
   }
   .read-more-btn:hover {
-    background-color: #d76a00;
+    background-color: rgb(60, 110, 184);
   }
   #popImage{
     overflow-y: scroll;
   }
   #popButton{
-    position: absolute;
+    position: static;
     width: 100%;
     display: block;
-    bottom: 60px;
+    bottom: 6px;
     width: 80%;
     left: 0;
     right: 0;
