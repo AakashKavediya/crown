@@ -10,6 +10,9 @@
 #boldHeading{
     font-weight: 900;
 }
+ul{
+    padding-left: 20px;
+}
 
 h2{
        font-family: "Kanit", serif;

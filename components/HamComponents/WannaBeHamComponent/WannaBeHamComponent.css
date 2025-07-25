@@ -18,7 +18,11 @@
 .betaContentWrapper {
     width: 100%;
 }
-
+ul{
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .gammaArticleContent {
     font-family: "Kanit", serif;
     text-align: justify;
@@ -43,7 +47,7 @@
 
 .zetaUnorderedList li {
     list-style: square;
-    color: gray;
+    color: black;
     font-weight: 200;
     font-size: 16px;
       font-family: "K2D", sans-serif;
@@ -56,7 +60,7 @@
     font-weight: 200;
     font-size: 16px;
     text-align: justify;
-    color: gray;
+    color: black;
 }
 
 .etaBlockContainer {

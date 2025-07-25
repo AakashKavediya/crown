@@ -38,7 +38,7 @@ main {
   font-weight: 100;
   font-size: 16px;
   text-align: justify;
-  color: gray;
+  color: black;
 }
 
 .flat article b {
@@ -75,7 +75,7 @@ main {
 #proud p {
       font-family: "K2D", sans-serif;
 
-  color: gray;
+  color: black;
   font-weight: 100;
   font-size: 16px;
 }
@@ -100,13 +100,13 @@ main {
 #activies p {
       font-family: "K2D", sans-serif;
 
-  color: gray;
+  color: black;
   font-weight: 100;
   font-size: 16px;
 }
 
 #activies ol li {
-  color: gray;
+  color: black;
   font-weight: 300;
   font-size: 16px;
 }
@@ -124,7 +124,7 @@ main {
 #article3 p {
     font-family: "K2D", sans-serif;
 
-  color: gray;
+  color: black;
   font-size: 16px;
   margin-top: 8px;
   font-weight: 100;
@@ -144,7 +144,7 @@ main {
 #article4 p {
     font-family: "K2D", sans-serif;
 
-  color: gray;
+  color: black;
   font-size: 16px;
   margin-top: 8px;
   font-weight: 100;
@@ -154,7 +154,7 @@ main {
   text-decoration: none;
   font-family: "Kanit", serif;
   color: white;
-  background-color: gray;
+  background-color: black;
   padding: 8px;
   font-size: 16px;
   border-radius: 8px;
@@ -270,7 +270,7 @@ ul li {
     font-weight: 300;
     font-size: 16px;
     text-align: justify;
-    color: gray;
+    color: black;
   }
 
   .flat article b {
@@ -309,7 +309,7 @@ ul li {
   #proud p {
       font-family: "K2D", sans-serif;
 
-    color: gray;
+    color: black;
     font-weight: 300;
     font-size: 16px;
   }
@@ -334,13 +334,13 @@ ul li {
   #activies p {
       font-family: "K2D", sans-serif;
 
-    color: gray;
+    color: black;
     font-weight: 300;
     font-size: 16px;
   }
 
   #activies ol li {
-    color: gray;
+    color: black;
     font-weight: 300;
     font-size: 16px;
   }
@@ -358,7 +358,7 @@ ul li {
   #article3 p {
       font-family: "K2D", sans-serif;
 
-    color: gray;
+    color: black;
     font-size: 16px;
     margin-top: 8px;
   }
@@ -376,7 +376,7 @@ ul li {
   #article4 p {
       font-family: "K2D", sans-serif;
 
-    color: gray;
+    color: black;
     font-size: 16px;
     margin-top: 8px;
   }
@@ -385,7 +385,7 @@ ul li {
     text-decoration: none;
     font-family: "Kanit", serif;
     color: white;
-    background-color: gray;
+    background-color: black;
     padding: 8px;
     font-size: 16px;
     border-radius: 8px;
