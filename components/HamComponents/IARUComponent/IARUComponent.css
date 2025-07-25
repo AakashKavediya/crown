@@ -47,7 +47,7 @@
       font-family: "K2D", sans-serif;
 }
 ul li{
-    color: gray;
+    color: black;
 }
 .featureList {
     list-style-type: square;
@@ -63,7 +63,7 @@ h2, h2 p{
 
 p{
     font-weight: 200;
-    color: gray;
+    color: black;
       font-family: "K2D", sans-serif;
 
 }

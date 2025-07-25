@@ -64,7 +64,7 @@ p {
 
 .rightContainer ul li {
     font-size:16px;
-    color:gray;
+    color:black;
       font-family: "K2D", sans-serif;
 
 }
@@ -100,7 +100,7 @@ h6 {
 
 }
 p{
-    color: gray;
+    color: black;
 }
 
 @media (max-width: 850px) {
@@ -161,7 +161,7 @@ p{
 
     .rightContainer ul li {
         font-size:16px;
-        color:gray;
+        color:black;
     }
 
     .leftContent {

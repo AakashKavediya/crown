@@ -47,7 +47,7 @@
 
 }
 #sliderContent p{
-    color: gray;
+    color: black;
     font-size: 18px;
     font-family: "K2D", sans-serif;
     text-align: justify;
@@ -78,11 +78,11 @@
 
 .prev {
   left: 6%;
-  background-color: gray77;
+  background-color: black77;
 }   
 .next {
   right: 6%;
-  background-color: gray77;
+  background-color: black77;
 }
 #sliderHolder{
     height: 60vh;

@@ -1,7 +1,7 @@
 /* General Styles */
 #heading {
     font-family: "Kanit", serif;
-    font-weight: 400;
+    font-weight: 900;
     font-style: normal;
     font-size: 40px;
     margin-bottom: 20px;
@@ -37,7 +37,7 @@
     font-weight: 300;
     font-size: 16px;
     text-align: justify;
-    color: gray;
+    color: black;
   }
   
   .flat article b {
@@ -76,13 +76,13 @@
   }
   
   #proud p, #activies p {
-    color: gray;
+    color: black;
     font-weight: 300;
     font-size: 16px;
   }
   
   #activies ol li {
-    color: gray;
+    color: black;
     font-weight: 300;
     font-size: 16px;
   }
@@ -99,7 +99,7 @@
   
   #article3 p, #article4 p {
     font-family: "Kanit", serif;
-    color: gray;
+    color: black;
     font-size: 16px;
     margin-top: 8px;
   }
@@ -123,7 +123,7 @@
     text-decoration: none;
     font-family: "Kanit", serif;
     color: white;
-    background-color: gray;
+    background-color: black;
     padding: 8px;
     font-size: 16px;
     border-radius: 8px;

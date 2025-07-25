@@ -76,7 +76,7 @@
 .submit-button {
   width: 100%;
   padding: 1rem;
-  background-color: orange;
+  background-color: #6899e1;
   color: white;
   border: none;
   border-radius: 8px;
@@ -87,7 +87,7 @@
 }
 
 .submit-button:hover {
-  background-color: darkorange;
+  background-color: #3e6db4;
   transform: translateY(-2px);
 }
 
