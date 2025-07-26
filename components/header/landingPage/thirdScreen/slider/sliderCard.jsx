@@ -7,7 +7,7 @@ const Slider = () => {
   const sliderRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const cardCount = 7;
-  const autoScrollInterval = 3000;
+  const autoScrollInterval = 8000;
   const router = useRouter();
 
   const cards = [
