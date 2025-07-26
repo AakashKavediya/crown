@@ -44,7 +44,7 @@ const Footer = () => {
           {/* Column 1 */}
           <div className="gamma-footer-column">
             <div className="delta-branding">
-              <div className="epsilon-logo">Our Collaborators</div>
+              <div className="epsilon-logo">OUR COLLABORTORS</div>
               {/* <div className="zeta-slogan">SOLOGAN COMPANY</div> */}
             </div>
             <ul className="eta-footer-links">

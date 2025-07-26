@@ -27,11 +27,11 @@ const ContactForm = () => {
     e.preventDefault();
 
     const formPayload = new FormData();
-    formPayload.append("entry.123456789", formData.firstName); // Replace with real entry ID
-    formPayload.append("entry.987654321", formData.lastName);  // Replace with real entry ID
-    formPayload.append("entry.111222333", formData.email);     // Replace with real entry ID
-    formPayload.append("entry.444555666", formData.phone);     // Replace with real entry ID
-    formPayload.append("entry.777888999", formData.message);   // Replace with real entry ID
+    formPayload.append("entry.1625822039", formData.firstName); // Replace with real entry ID
+    formPayload.append("entry.1220005815", formData.lastName);  // Replace with real entry ID
+    formPayload.append("entry.1960577588", formData.email);     // Replace with real entry ID
+    formPayload.append("entry.761670494", formData.phone);     // Replace with real entry ID
+    formPayload.append("entry.1209684965", formData.message);   // Replace with real entry ID
 
     try {
       const response = await fetch(GOOGLE_FORM_ACTION, {
