@@ -24,7 +24,7 @@ main {
 #Image {
     width: 350px;
     float: left;
-    height: 180px;
+    height: 220px;
     background-color: gray;
     margin: 10px;
     border-radius: 20px;
@@ -34,7 +34,7 @@ main {
 #ImageOdd {
     width: 350px;
     float: right;
-    height: 180px;
+    height: 220px;
     background-color: gray;
     margin: 10px;
     border-radius: 20px;

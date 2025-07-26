@@ -7,9 +7,22 @@ const ASOCExam = () => {
         <div id="extra">
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
-      <h2 className="gammaArticleContent deltaTitle ">ASOC EXAM</h2>
+      <h2 className="gammaArticleContent" style={{fontWeight:900}} > <b> ASOC EXAM</b></h2>
       <div className="betaContentWrapper">
         <article className="gammaArticleContent">
+          <p>The examination for ham radio licensing is referred to as the Amateur Station Operator’s Certificate Examination (ASOC examination). This exam is administered by the Wireless Planning and Coordination (WPC) division of the Ministry of Communications in New Delhi at various Wireless Monitoring Stations across the nation.</p>
+          <p>The Amateur Station Operator Certificate enables people to establish and manage personal radio stations for leisure, experimentation, or emergency communication purposes HAM operators play a crucial role in emergency communication and disaster management, offering supplementary communication assistance in times of crisis. To obtain this certificate, candidates must successfully complete an exam focused on radio operations and regulations, which guarantees that operators are well-informed and able to comply with WPC and ITU standards. </p>
+          <br />
+          <b style={{fontWeight:600}} >Categories of Amateur Licenses in India  </b>
+          <p>Amateur Wireless Telegraph Station Licence, Restricted Grade.   </p>
+          <p>Amateur Wireless Telegraph Station Licence, General Grade.  </p>
+          <b style={{fontWeight:600}}>Who is eligible for Amateur licenses in India?  </b>
+          <p>The Amateur license will be issued to citizens of India above 12 years of age who pass the ASOC exam.   </p>
+          <p>The holders of the Certificate of Proficiency like Radio Communication Operators </p>
+          <p>General or Radio Telegraph Operators First or Second Class Certificate are eligible for Restricted Grade Amateur license without writing any exams.  </p>
+          <p>Applicants holding Degree in Engineering/Science or Diploma in Engineering and having studied Electronics or Telecommunications are exempted from appearing in Section A of Part I of the test.  </p>
+          <p>Licences are also given to Radio Club, society, school, college or any institution interested in this hobby, provided that their office-bearer has a General Licence. </p>
+          <br />
           <ol>
             <li>
               <b>Structure and Content of the Exam  </b>
