@@ -6,7 +6,7 @@ import "./autoSlider.css"; // Ensure CSS file exists
 const Slider = () => {
   const sliderRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const cardCount = 5;
+  const cardCount = 7;
   const autoScrollInterval = 3000;
   const router = useRouter();
 
@@ -47,6 +47,12 @@ const Slider = () => {
       heading: "CQ Mumbai",
       shortData: `The Crown Club participated in the ARSI National Field Day and Hill Topping Contest 2024, which was held on January 27-28, 2024, under the supervision of Dr. Umesh Shinde. The event's goal was to assess amateur radio communication skills in outdoor settings, therefore teams were required to set up their own radio stations on hilltops. The team consisted of 11 people (8 undergraduate students and 3 seasoned alumni), who chose a hilltop in Satara for their operations. They entered Category A (20m and 40m HF bands) and constructed stacked half-wave dipole antennas using bamboo and insulated copper wires, calibrated for optimal performance with a VNA equipment. These antennas were connected to an ICOM 718 transceiver using RG58 A/U coaxial wires.`,
       route: "/events/CQmumbai",
+    },
+    {
+      image: "/publicImage/imageDecoder7.jpg",
+      heading: "ISS SSTV Image Decoding by Club Members",
+      shortData: `In an exciting global HAM radio initiative, members of our amateur radio club, including Supriya Bhide (VU3ZJY), successfully decoded Slow Scan Television (SSTV) images sent from the International Space Station (ISS). These images were part of the “NASA On The Air” event, commemorating 35 years of human spaceflight through the ARISS (Amateur Radio on the ISS) program.The students employed antennas, SDR receivers, and decoding software to capture and reconstruct these images transmitted from space in real-time. This endeavor required accurate satellite tracking and a strong grasp of radio operations.Both Supriya Bhide and Umesh Sir...`,
+      route: "/events/ImageDecoder",
     },
   ];
 
