@@ -43,3 +43,56 @@
     text-align: justify;
     margin: 10px;
 }
+
+@media (max-width: 900px) {
+  #Image_Decoding_Container {
+    width: 98%;
+    padding: 0 5px;
+  }
+
+  #imageTab {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #imageTab img {
+    width: 90vw;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  #mergeImage {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #mergeImage img {
+    width: 90vw;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  #mergeImage #mergeContect {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  #Image_Decoding_Container p {
+    font-size: 16px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  #Image_Decoding_Container h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #Image_Decoding_Container p {
+    font-size: 15px;
+  }
+}
