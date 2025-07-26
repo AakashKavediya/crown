@@ -14,7 +14,8 @@ const Image_Decoding = () => {
                 <img src="/publicImage/imageDecoder2.jpg" alt="loading..." />
             </div> */}
             <div id="imageTab">
-                <img src="/publicImage/imageDecoder1.jpg" alt="loading..." />
+                <img src="/publicImage/imageDecoder1.jpg" alt="loading..."  />
+                <p>images & certificate received in 2019</p>
                 <img src="/publicImage/imageDecoder2.jpg" alt="loading..." />
                 <img src="/publicImage/imageDecoder3.jpg" alt="loading..." />
                 <img src="/publicImage/imageDecoder4.jpg" alt="loading..." />

@@ -83,7 +83,7 @@ const Footer = () => {
                     <li style={{listStyle:'none'}}><Link href=""><FaXTwitter size={24} color="black" /></Link></li>
                 </ul><br />
                 <ol>
-                  <li style={{display:'flex',flexDirection:'row'}} ><b>Phone no: </b><p style={{marginLeft:5}}>98921 68052 (Dr.Umesh Shinde) </p></li>
+                  <li style={{display:'flex',flexDirection:'row'}} ><b>Phone no: </b><p style={{marginLeft:5}}>98921 68052</p></li>
                   <li style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:8}} ><b>email ID: </b><code style={{marginLeft:5,color:'#333333',fontSize:18}}>somaiyahamclub@gmail.com</code></li>
                 </ol>
             </div>

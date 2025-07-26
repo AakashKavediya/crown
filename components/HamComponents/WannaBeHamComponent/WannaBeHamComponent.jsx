@@ -78,6 +78,13 @@ const ASOCExam = () => {
             </li>
           </ol>
           <br />
+          <b>Useful Links: </b>
+          <ul>
+            <li><a href="https://www.eservices.dot.gov.in/sites/default/files/user-mannual/ASOC%20Manual%20%282%29.pdf">registration manual</a></li>
+            <li><a href="https://www.saralsanchar.gov.in/index.php">Saralsanchar</a></li>
+            <li><a href="https://bharatkosh.gov.in/">paymentlink bharatkosh</a></li>
+            <li><a href="https://www.saralsanchar.gov.in/circular/licenses_issued/FAQ_for_HAM.pdf">ham faq</a></li>
+          </ul>
         </article>
       </div>
     </main>

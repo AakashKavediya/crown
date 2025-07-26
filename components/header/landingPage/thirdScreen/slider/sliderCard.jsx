@@ -6,7 +6,7 @@ import "./autoSlider.css"; // Ensure CSS file exists
 const Slider = () => {
   const sliderRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const cardCount = 7;
+  const cardCount = 8;
   const autoScrollInterval = 8000;
   const router = useRouter();
 
@@ -39,7 +39,7 @@ const Slider = () => {
     {
       image: "/publicImage/newSlide1.png",
       heading: "ARSI Regional Meet",
-      shortData: `Following the successful ARSI regional meeting held in Chennai in early February 2023, a similar gathering was proposed for Mumbai, coordinated by the regional team which includes Jatin (VU2KWJ) and Huzefa (VU2HIT)....`,
+      shortData: `Following the successful ARSI regional meeting held in Chennai in early February 2023, a similar gathering was proposed for Mumbai, coordinated by the regional team which includes Jatin (VU2KWJ) and Huzefa (VU2HIT) The aim of these regional meetings is to promote awareness of ARSI’s position as the sole member society from India in IARU-Region 3 and to illustrate how contributions from individual members can enhance ARSI’s interactions with regulatory bodies like WPC and improve its status in the global amateur radio community...`,
       route: "/events/ARSIRegionalMeet"
     },
     {
@@ -53,6 +53,12 @@ const Slider = () => {
       heading: "ISS SSTV Image Decoding by Club Members",
       shortData: `In an exciting global HAM radio initiative, members of our amateur radio club, including Supriya Bhide (VU3ZJY), successfully decoded Slow Scan Television (SSTV) images sent from the International Space Station (ISS). These images were part of the “NASA On The Air” event, commemorating 35 years of human spaceflight through the ARISS (Amateur Radio on the ISS) program.The students employed antennas, SDR receivers, and decoding software to capture and reconstruct these images transmitted from space in real-time. This endeavor required accurate satellite tracking and a strong grasp of radio operations.Both Supriya Bhide and Umesh Sir...`,
       route: "/events/ImageDecoder",
+    },
+    {
+      image: "/publicImage/laptop.png",
+      heading: "BeliefSat-0: A Mission by Student Voices Over the Spectrum",
+      shortData: `BeliefSat-0 is a student-built satellite developed by the passionate members of CROWN — the Club for Radio Operations and Wireless Network — at K.J. Somaiya Institute of Technology, Mumbai. This mission stands as a tribute to 100 years of Amateur Radio in India and serves the global HAM radio community with pride and purpose.  Launched aboard ISRO's PSLV as part of the POEM (PSLV Orbital Experimental Module) initiative by IN-SPACe, BeliefSat-0 operates in a 350 km orbit at 9° inclination. It functions as a UHF to VHF FM voice repeater and APRS digipeater, enhancing communication capabilities for HAM radio operators worldwide.`,
+      // route: "/events/ImageDecoder",
     },
   ];
 
