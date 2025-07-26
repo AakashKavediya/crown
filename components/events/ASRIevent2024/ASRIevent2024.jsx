@@ -1,9 +1,12 @@
 import React from 'react';
-import './ASRIevents2024.css';
+import './ASRIevent2024.css';
 
 const ArsiFieldDay = () => {
   return (
     <main>
+      <div id="extra">
+        <br /><br /><br /><br /><br /><br /><br /><br />
+      </div>
       <h2 id="Pagetitle">ARSI National Field Day and Hill Topping Contest 2024</h2>
       
       <div id="content">

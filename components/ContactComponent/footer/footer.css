@@ -72,13 +72,18 @@
 .eta-footer-links li {
   margin: 5px;
   cursor: pointer;
-  width: 150px;
+  width: 100px;
   list-style: none;
-  height: 150px;
+  height: 100px;
   background-color: #ededed;
-  
   transition: color 0.2s;
 }
+
+.eta-footer-links li img {
+  width: 100px;
+  height: 100px;
+}
+
 
 .eta-footer-links li:hover {
   color: #0066cc;
