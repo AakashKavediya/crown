@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&family=Kanit:wght@700&display=swap');
+
+#Image_Decoding_Container{
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Image_Decoding_Container h1{
+    font-family: "Kanit", serif;
+    font-weight: 900;
+}
+#imageTab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#imageTab img{
+    background-color: #ededed;
+    padding: 10px;
+    border-radius: 20px;
+    height: 200px;
+}
+#mergeImage{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#mergeImage img{
+    height: 300px;
+    padding: 10px;
+    background-color: #ededed;
+    border-radius: 20px;
+}
+#mergeImage #mergeContect{
+    margin: 10px;
+    
+}
+#Image_Decoding_Container p{
+    font-family: "K2D", serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px;
+}
