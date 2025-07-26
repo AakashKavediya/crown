@@ -1,10 +1,15 @@
 "use client";
 import Link from 'next/link';
 import React, { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import './header.css';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  // Helper to check if a link is active
+  const isActive = (href) => pathname === href;
 
   return (
     <div>
@@ -18,22 +23,22 @@ const Header = () => {
 
           <div className="nav-links desktop-only">
             <nav>
-              <Link href="/">Home</Link>
-              <Link href="/about">About</Link>
+              <Link href="/" className={isActive('/') ? 'active' : ''}>Home</Link>
+              <Link href="/about" className={isActive('/about') ? 'active' : ''}>About</Link>
 
               <div className="menu-dropdown">
                 <button className="menu-button">HAM</button>
                 <div className="dropdown-items">
-                  <Link href="/ham/aboutham">About HAM</Link>
-                  <Link href="/ham/arsi">ARSI</Link>
-                  <Link href="/ham/iaru">IARU</Link>
-                  <Link href="/ham/swl">SWL</Link>
-                  <Link href="/ham/ourhams">Our HAMS</Link>
-                  <Link href="/ham/wannabeham">Wanna be HAM</Link>
+                  <Link href="/ham/aboutham" className={isActive('/ham/aboutham') ? 'active' : ''}>About HAM</Link>
+                  <Link href="/ham/arsi" className={isActive('/ham/arsi') ? 'active' : ''}>ARSI</Link>
+                  <Link href="/ham/iaru" className={isActive('/ham/iaru') ? 'active' : ''}>IARU</Link>
+                  <Link href="/ham/swl" className={isActive('/ham/swl') ? 'active' : ''}>SWL</Link>
+                  <Link href="/ham/ourhams" className={isActive('/ham/ourhams') ? 'active' : ''}>Our HAMS</Link>
+                  <Link href="/ham/wannabeham" className={isActive('/ham/wannabeham') ? 'active' : ''}>Wanna be HAM</Link>
                 </div>
               </div>
 
-              <Link href="/contact">Contact Us</Link>
+              <Link href="/contact" className={isActive('/contact') ? 'active' : ''}>Contact Us</Link>
             </nav>
           </div>
 
@@ -54,22 +59,22 @@ const Header = () => {
           </svg>
         </button>
         <nav className="panel-links">
-          <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
-          <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
+          <Link href="/" className={isActive('/') ? 'active' : ''} onClick={() => setMenuOpen(false)}>Home</Link>
+          <Link href="/about" className={isActive('/about') ? 'active' : ''} onClick={() => setMenuOpen(false)}>About</Link>
 
           <div className="menu-dropdown">
             <button className="menu-button">HAM</button>
             <div className="dropdown-items">
-              <Link href="/ham/aboutham" onClick={() => setMenuOpen(false)}>About HAM</Link>
-              <Link href="/ham/arsi" onClick={() => setMenuOpen(false)}>ARSI</Link>
-              <Link href="/ham/iaru" onClick={() => setMenuOpen(false)}>IARU</Link>
-              <Link href="/ham/swl" onClick={() => setMenuOpen(false)}>SWL</Link>
-              <Link href="/ham/ourhams" onClick={() => setMenuOpen(false)}>Our HAMS</Link>
-              <Link href="/ham/wannabeham" onClick={() => setMenuOpen(false)}>Wanna be HAM</Link>
+              <Link href="/ham/aboutham" className={isActive('/ham/aboutham') ? 'active' : ''} onClick={() => setMenuOpen(false)}>About HAM</Link>
+              <Link href="/ham/arsi" className={isActive('/ham/arsi') ? 'active' : ''} onClick={() => setMenuOpen(false)}>ARSI</Link>
+              <Link href="/ham/iaru" className={isActive('/ham/iaru') ? 'active' : ''} onClick={() => setMenuOpen(false)}>IARU</Link>
+              <Link href="/ham/swl" className={isActive('/ham/swl') ? 'active' : ''} onClick={() => setMenuOpen(false)}>SWL</Link>
+              <Link href="/ham/ourhams" className={isActive('/ham/ourhams') ? 'active' : ''} onClick={() => setMenuOpen(false)}>Our HAMS</Link>
+              <Link href="/ham/wannabeham" className={isActive('/ham/wannabeham') ? 'active' : ''} onClick={() => setMenuOpen(false)}>Wanna be HAM</Link>
             </div>
           </div>
 
-          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
+          <Link href="/contact" className={isActive('/contact') ? 'active' : ''} onClick={() => setMenuOpen(false)}>Contact Us</Link>
         </nav>
       </div>
     </div>
