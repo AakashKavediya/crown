@@ -15,7 +15,11 @@ const Header = () => {
     <div>
       <header className="header-container">
         <div className="logo-section">
-          <img className="logo-image" src="/publicImage/crown_logo.jpg" alt="Logo" />
+          <Link href="/" passHref legacyBehavior>
+            <a>
+              <img className="logo-image" src="/publicImage/crown_logo.jpg" alt="Logo" />
+            </a>
+          </Link>
         </div>
 
         <div className="main-content">
