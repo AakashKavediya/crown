@@ -48,9 +48,9 @@ const Footer = () => {
               {/* <div className="zeta-slogan">SOLOGAN COMPANY</div> */}
             </div>
             <ul className="eta-footer-links">
-              <li><img src="./publicImage/amsat_logo.webp" alt="" /></li>
-              <li><img src="./publicImage/arsi_logo.png" alt="" /></li>
-              <li><img src="./publicImage/itu.png" alt="" /></li>
+              <li><img src="/publicImage/amsat_logo.webp" alt="" /></li>
+              <li><img src="/publicImage/arsi_logo.png" alt="" /></li>
+              <li><img src="/publicImage/itu.png" alt="" /></li>
               {/* <li><img src="" alt="" /></li> */}
             </ul>
           </div>
