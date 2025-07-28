@@ -7,7 +7,7 @@ const ASOCExam = () => {
         <div id="extra">
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
-      <h2 className="gammaArticleContent" style={{fontWeight:900}} > <b> ASOC EXAM</b></h2>
+      <h2 className="gammaArticleContent" style={{fontWeight:900}} > <b> ASOC EXAM</b></h2><br />
       <div className="betaContentWrapper">
         <article className="gammaArticleContent">
           <p>The examination for ham radio licensing is referred to as the Amateur Station Operator’s Certificate Examination (ASOC examination). This exam is administered by the Wireless Planning and Coordination (WPC) division of the Ministry of Communications in New Delhi at various Wireless Monitoring Stations across the nation.</p>
@@ -78,13 +78,18 @@ const ASOCExam = () => {
             </li>
           </ol>
           <br />
-          <b>Useful Links: </b>
-          <ul>
-            <li><a href="https://www.eservices.dot.gov.in/sites/default/files/user-mannual/ASOC%20Manual%20%282%29.pdf">registration manual</a></li>
-            <li><a href="https://www.saralsanchar.gov.in/index.php">Saralsanchar</a></li>
-            <li><a href="https://bharatkosh.gov.in/">paymentlink bharatkosh</a></li>
-            <li><a href="https://www.saralsanchar.gov.in/circular/licenses_issued/FAQ_for_HAM.pdf">ham faq</a></li>
-          </ul>
+         <div style={{ fontWeight: 100 }}>
+  <b>Useful Links: </b>
+  <ul>
+    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://www.eservices.dot.gov.in/sites/default/files/user-mannual/ASOC%20Manual%20%282%29.pdf">registration manual</a><br /></p>
+    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://www.saralsanchar.gov.in/index.php">Saralsanchar</a><br /></p>
+    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://bharatkosh.gov.in/">paymentlink bharatkosh</a><br /></p>
+    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://www.saralsanchar.gov.in/circular/licenses_issued/FAQ_for_HAM.pdf">ham faq</a><br /></p>
+  </ul>
+</div>
+
+
+
         </article>
       </div>
     </main>

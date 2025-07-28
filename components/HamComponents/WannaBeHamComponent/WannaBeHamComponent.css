@@ -131,7 +131,9 @@ ol li b{
         justify-content: space-evenly;
         margin-top: 20px;
     }
-
+    #extra{
+        height: 80px;
+    }
     .thetaOddBlock {
         text-align: center;
         width: 95%;
