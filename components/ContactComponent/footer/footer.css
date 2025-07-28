@@ -179,6 +179,8 @@
     margin: 0;
   }
   .eta-footer-links li{
-    width: 45%;
+    width: max-content;
+    margin: 10px;
+    margin-right: 20px;
   }
 }
