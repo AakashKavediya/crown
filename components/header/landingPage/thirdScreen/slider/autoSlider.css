@@ -237,4 +237,13 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .prev {
+  left: 4%;
+  
+  background-color: black77;
+}   
+.next {
+  right: 4%;
+  background-color: black77;
+}
 }
