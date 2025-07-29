@@ -81,10 +81,10 @@ const ASOCExam = () => {
          <div style={{ fontWeight: 100 }}>
   <b>Useful Links: </b>
   <ul>
-    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://www.eservices.dot.gov.in/sites/default/files/user-mannual/ASOC%20Manual%20%282%29.pdf">registration manual</a><br /></p>
-    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://www.saralsanchar.gov.in/index.php">Saralsanchar</a><br /></p>
-    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://bharatkosh.gov.in/">paymentlink bharatkosh</a><br /></p>
-    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://www.saralsanchar.gov.in/circular/licenses_issued/FAQ_for_HAM.pdf">ham faq</a><br /></p>
+    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://www.eservices.dot.gov.in/sites/default/files/user-mannual/ASOC%20Manual%20%282%29.pdf">Registration guide</a><br /></p>
+    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://www.saralsanchar.gov.in/index.php">License Application Portal</a><br /></p>
+    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://bharatkosh.gov.in/">Payment portal</a><br /></p>
+    <p><a style={{ fontWeight: 100, textDecoration: 'none' }} href="https://www.saralsanchar.gov.in/circular/licenses_issued/FAQ_for_HAM.pdf">HAM FAQ'S</a><br /></p>
   </ul>
 </div>
 

@@ -36,12 +36,13 @@ ul{
     margin-bottom: 10px;
 }
 ol li ul li{
-      font-family: "K2D", sans-serif;
+    font-family: "K2D", sans-serif;
     font-weight: 400;
 }
 ol li b{
-          font-family: "K2D", sans-serif;
-    font-weight: 600;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    /* font-style: bold; */
 }
 .epsilonBoldText {
     font-weight: 200;
