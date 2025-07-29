@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
-const AutoSlider = ({ children, autoScrollInterval = 3000 }) => {
+const AutoSlider = ({ children, autoScrollInterval = 5000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const sliderRef = useRef(null);

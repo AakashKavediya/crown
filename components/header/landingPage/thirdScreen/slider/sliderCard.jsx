@@ -12,10 +12,16 @@ const Slider = () => {
 
   const cards = [
     {
-      image: "/publicImage/grpqrp24.jpg",
-      heading: "QRP DAY 2024",
-      shortData: `The Crown Club enthusiastically participated in the QRP Contest, which was conducted by the Amateur Radio Society of India. This event improved students' knowledge of low-power amateur radio (QRP) operations, antenna setup, and communication protocols, giving an invaluable hands-on learning opportunity. The event began with expert speeches by experienced ham operators such as Dr. Umesh Shinde, Chandrashekhar Kulkarni, Shrimat Kamath, and Sarla Sharma. They discussed the evolution of ham radio, antenna principles, and the role of amateur radio groups in promoting communication technologies. The 40m, 20m, 15m, and 10m bands received special attention due to their importance in worldwide communication.`,
-      route: "/events/QRBDay",
+      image: "/publicImage/laptop.png",
+      heading: "BeliefSat-0: A Mission by Student Voices Over the Spectrum",
+      shortData: `BeliefSat-0 is a student-built satellite developed by the passionate members of CROWN — the Club for Radio Operations and Wireless Network — at K.J. Somaiya Institute of Technology, Mumbai. This mission stands as a tribute to 100 years of Amateur Radio in India and serves the global HAM radio community with pride and purpose.  Launched aboard ISRO's PSLV as part of the POEM (PSLV Orbital Experimental Module) initiative by IN-SPACe, BeliefSat-0 operates in a 350 km orbit at 9° inclination. It functions as a UHF to VHF FM voice repeater and APRS digipeater, enhancing communication capabilities for HAM radio operators worldwide.`,
+      // route: "/events/ImageDecoder",
+    },
+     {
+      image: "/publicImage/imageDecoder7.jpg",
+      heading: "ISS SSTV Image Decoding by Club Members",
+      shortData: `In an exciting global HAM radio initiative, members of our amateur radio club, including Supriya Bhide (VU3ZJY), successfully decoded Slow Scan Television (SSTV) images sent from the International Space Station (ISS). These images were part of the “NASA On The Air” event, commemorating 35 years of human spaceflight through the ARISS (Amateur Radio on the ISS) program.The students employed antennas, SDR receivers, and decoding software to capture and reconstruct these images transmitted from space in real-time. This endeavor required accurate satellite tracking and a strong grasp of radio operations.Both Supriya Bhide and Umesh Sir...`,
+      route: "/events/ImageDecoder",
     },
     {
       image: "/publicImage/arsi_2025.jpg",
@@ -24,18 +30,17 @@ const Slider = () => {
       route: "/events/ArsiEvent",
     },
     {
-      image: "/publicImage/LARC.png",
-      heading: "LARC Hyderabad 2017 – Antenna Making Contest",
-      shortData: `The LARC (Lamakaan Amateur Radio Convention) that took place in Hyderabad in 2017 was a notable occasion designed to promote ingenuity and technical advancement among amateur radio enthusiasts. The convention included a variety of captivating sessions such as antenna construction competitions, technical workshops, and keynote speeches delivered by distinguished hams, making it a standout event in the Indian amateur radio scene. Two representatives from the Crown Club, Akshay Jain and Jatin Bhosale, took part in the Antenna Making Contest, where they crafted a Moxon Yagi antenna for the VHF 145 MHz.`,
-      // route: "/events/ASRIevents2024 ",
-    },
-    {
       image: "/publicImage/pic1.jpg",
       heading: "ARSI National Field Day and Hill Topping Contest 2024",
       shortData: `The Crown Club participated in the ARSI National Field Day and Hill Topping Contest 2024, which was held on January 27-28, 2024, under the supervision of Dr. Umesh Shinde. The event's goal was to assess amateur radio communication skills in outdoor settings, therefore teams were required to set up their own radio stations on hilltops. The team consisted of 11 people (8 undergraduate students and 3 seasoned alumni), who chose a hilltop in Satara for their operations. They entered Category A (20m and 40m HF bands) and constructed stacked half-wave dipole antennas using bamboo and insulated copper wires.`,
       route: "/events/ASRIevents2024",
     },
-    
+    {
+      image: "/publicImage/grpqrp24.jpg",
+      heading: "QRP DAY 2024",
+      shortData: `The Crown Club enthusiastically participated in the QRP Contest, which was conducted by the Amateur Radio Society of India. This event improved students' knowledge of low-power amateur radio (QRP) operations, antenna setup, and communication protocols, giving an invaluable hands-on learning opportunity. The event began with expert speeches by experienced ham operators such as Dr. Umesh Shinde, Chandrashekhar Kulkarni, Shrimat Kamath, and Sarla Sharma. They discussed the evolution of ham radio, antenna principles, and the role of amateur radio groups in promoting communication technologies. The 40m, 20m, 15m, and 10m bands received special attention due to their importance in worldwide communication.`,
+      route: "/events/QRBDay",
+    },
     {
       image: "/publicImage/newSlide1.png",
       heading: "ARSI Regional Meet",
@@ -45,20 +50,14 @@ const Slider = () => {
     {
       image: "/publicImage/CVMumbai.jpg",
       heading: "CQ Mumbai",
-      shortData: `The Crown Club participated in the ARSI National Field Day and Hill Topping Contest 2024, which was held on January 27-28, 2024, under the supervision of Dr. Umesh Shinde. The event's goal was to assess amateur radio communication skills in outdoor settings, therefore teams were required to set up their own radio stations on hilltops. The team consisted of 11 people (8 undergraduate students and 3 seasoned alumni), who chose a hilltop in Satara for their operations. They entered Category A (20m and 40m HF bands) and constructed stacked half-wave dipole antennas using bamboo and insulated copper wires, calibrated for optimal performance with a VNA equipment. These antennas were connected to an ICOM 718 transceiver using RG58 A/U coaxial wires.`,
+      shortData: `The "CQMumbai2022" Annual Amateur Radio Convention in Mumbai City was held successfully on October 9, 2022, at the K.J. Somaiya Institute of Technology and Engineering in Sion. After a two-year hiatus due to COVID-19 limitations, the event drew attendees from Mumbai and other cities, including Hyderabad...`,
       route: "/events/CQmumbai",
     },
     {
-      image: "/publicImage/imageDecoder7.jpg",
-      heading: "ISS SSTV Image Decoding by Club Members",
-      shortData: `In an exciting global HAM radio initiative, members of our amateur radio club, including Supriya Bhide (VU3ZJY), successfully decoded Slow Scan Television (SSTV) images sent from the International Space Station (ISS). These images were part of the “NASA On The Air” event, commemorating 35 years of human spaceflight through the ARISS (Amateur Radio on the ISS) program.The students employed antennas, SDR receivers, and decoding software to capture and reconstruct these images transmitted from space in real-time. This endeavor required accurate satellite tracking and a strong grasp of radio operations.Both Supriya Bhide and Umesh Sir...`,
-      route: "/events/ImageDecoder",
-    },
-    {
-      image: "/publicImage/laptop.png",
-      heading: "BeliefSat-0: A Mission by Student Voices Over the Spectrum",
-      shortData: `BeliefSat-0 is a student-built satellite developed by the passionate members of CROWN — the Club for Radio Operations and Wireless Network — at K.J. Somaiya Institute of Technology, Mumbai. This mission stands as a tribute to 100 years of Amateur Radio in India and serves the global HAM radio community with pride and purpose.  Launched aboard ISRO's PSLV as part of the POEM (PSLV Orbital Experimental Module) initiative by IN-SPACe, BeliefSat-0 operates in a 350 km orbit at 9° inclination. It functions as a UHF to VHF FM voice repeater and APRS digipeater, enhancing communication capabilities for HAM radio operators worldwide.`,
-      // route: "/events/ImageDecoder",
+      image: "/publicImage/LARC.png",
+      heading: "LARC Hyderabad 2017 – Antenna Making Contest",
+      shortData: `The LARC (Lamakaan Amateur Radio Convention) that took place in Hyderabad in 2017 was a notable occasion designed to promote ingenuity and technical advancement among amateur radio enthusiasts. The convention included a variety of captivating sessions such as antenna construction competitions, technical workshops, and keynote speeches delivered by distinguished hams, making it a standout event in the Indian amateur radio scene. Two representatives from the Crown Club, Akshay Jain and Jatin Bhosale, took part in the Antenna Making Contest, where they crafted a Moxon Yagi antenna for the VHF 145 MHz.`,
+      // route: "/events/ASRIevents2024 ",
     },
   ];
 
@@ -130,7 +129,7 @@ const Slider = () => {
       </div>
 
       <div id="floatingTextContainer">
-        <marquee id="textFlow" behavior="scroll" direction="left">
+        <marquee id="textFlow" behavior="scroll" direction="left"scrollamount="6">
           <p id="scrollingText">
             “When everything else fails, amateur radio will still be there—and
             thriving.” — W. Craig Fugate, Former FEMA Administrator

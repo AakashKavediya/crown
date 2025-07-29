@@ -45,6 +45,11 @@ const MemberDirectory = () => {
               <td className="iotaDataCell">VU3FPK</td>
               <td className="iotaDataCell">Student Representative</td>
             </tr>
+             <tr className="thetaDataRow">
+              <td className="iotaDataCell">Dr.Milind Nemade</td>
+              <td className="iotaDataCell">VU3GII</td>
+              <td className="iotaDataCell"></td>
+            </tr>
             <tr className="thetaDataRow">
               <td className="iotaDataCell">Prof. Tilottama Dhake</td>
               <td className="iotaDataCell">VU3CDF</td>
