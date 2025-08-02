@@ -1,0 +1,36 @@
+{
+  "name": "CROWN - Club for Radio Operations and Wireless Network",
+  "short_name": "CROWN",
+  "description": "Official website of CROWN (Club for Radio Operations and Wireless Network) - Amateur Radio Club",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6899e1",
+  "icons": [
+    {
+      "src": "/crown_logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/crown_logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/crown_logo.jpg",
+      "sizes": "32x32",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/crown_logo.jpg",
+      "sizes": "16x16",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": ["education", "technology"],
+  "lang": "en",
+  "orientation": "portrait-primary"
+} 
