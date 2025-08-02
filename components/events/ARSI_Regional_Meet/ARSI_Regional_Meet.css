@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=K2D&family=Kanit:wght@700&display=swap');
 
-#Pagetitle {
+.q5t9r1 {
     font-family: "Kanit", serif;
     font-size: 25px;
     font-weight: 600;
@@ -9,7 +9,7 @@
     justify-content: justify;
 }
 
-main p {
+.x7f3k9 p {
     font-family: "K2D", serif;
     font-size: 18px;
     padding: 2px;
@@ -17,11 +17,11 @@ main p {
     justify-content: justify;
 }
 
-main {
+.x7f3k9 {
     padding: 30px;
 }
 
-#Image {
+.j8k4d7 {
     width: 300px;
     float: left;
     height: 180px;
@@ -31,7 +31,7 @@ main {
     border: 1px solid gray;
 }   
 
-#ImageOdd {
+.n6f2p3 {
     width: 300px;
     float: right;
     height: 180px;
@@ -42,14 +42,14 @@ main {
 }   
 
 @media (max-width: 850px) {
-    p {
+    .x7f3k9 p {
         text-align: justify;
     }
-    #extra{
+    .p2m8n4 {
         height: 80px;
     }
     
-#ImageOdd {
+.n6f2p3 {
     width: 100%;
     float: none;
     height: 180px;
@@ -61,7 +61,7 @@ main {
     margin-right: auto;
 }   
     
-#Image {
+.j8k4d7 {
     width: 100%;
     float: none;
     height: 180px;
@@ -72,5 +72,4 @@ main {
     margin-left: auto;
     margin-right: auto;
 }   
-
 }

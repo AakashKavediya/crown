@@ -14,17 +14,27 @@ const Image_Decoding = () => {
                 <img src="/publicImage/imageDecoder2.jpg" alt="loading..." />
             </div> */}
             <div id="imageTab">
+                <div  >
                 <img src="/publicImage/imageDecoder1.jpg" alt="loading..."  />
-                <p>images & certificate received in 2019</p>
+                <p style={{fontSize:12, color:'#222222', textAlign:'center', marginTop:'-2px'}} >images & certificate received in 2019</p>
+                </div>
+                <div>
                 <img src="/publicImage/imageDecoder2.jpg" alt="loading..." />
+                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >images & certificate received in 2019</p>
+                </div>
+                <div>
                 <img src="/publicImage/imageDecoder3.jpg" alt="loading..." />
+                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >images & certificate received in 2019</p>
+                </div>
+                <div>
                 <img src="/publicImage/imageDecoder4.jpg" alt="loading..." />
+                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >images & certificate received in 2019</p>
+                </div>
             </div>
             
               <div id="imageTab">
                 <p>In another proud moment for our amateur radio club, members successfully received and decoded Slow Scan Television (SSTV) images transmitted directly from the International Space Station (ISS) during the ARISS (Amateur Radio on the International Space Station) event commemorating the 50th anniversary of the Apollo-Soyuz mission and the 40th anniversary of the STS-51F mission.</p>
-                <img src="/publicImage/imageDecoder5.jpg" alt="loading..." />
-                <img src="/publicImage/imageDecoder6.jpg" alt="loading..." />
+                <img id='certificate' src="/publicImage/imageDecoder7.jpg" alt="loading..." />
             </div>
             <div id="mergeImage">
                 <div id="mergeContect">
@@ -32,7 +42,9 @@ const Image_Decoding = () => {
                     <p>This hands-on activity involved not only technical skills in radio reception and image decoding but also a deeper connection with the history of human spaceflight. In recognition of the successful image reception, an official SSTV Award Certificate (No. 282703) was issued by ARISS, adding yet another achievement to our club’s growing legacy in space communication initiatives.</p>
                 </div>
                 <div id="mergeImg">
-                    <img src="/publicImage/imageDecoder7.jpg" alt="loading..." />
+                    
+                <img src="/publicImage/imageDecoder5.jpg" alt="loading..." />
+                <img src="/publicImage/imageDecoder6.jpg" alt="loading..." />
                 </div>
             </div>
         </div>

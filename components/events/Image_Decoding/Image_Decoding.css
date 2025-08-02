@@ -19,23 +19,30 @@
 
 #imageTab img{
     background-color: #ededed;
-    padding: 10px;
+    padding: 2px;
     border-radius: 20px;
     height: 200px;
+    margin: 0px;
+}
+#mergeImg{
+  display: flex;
+  flex-direction: row;
 }
 #mergeImage{
     display: flex;
     flex-direction: row-reverse;
 }
 #mergeImage img{
-    height: 300px;
+    height: 200px;
     padding: 10px;
     background-color: #ededed;
     border-radius: 20px;
+    margin: 0px;
 }
 #mergeImage #mergeContect{
     margin: 10px;
     
+    margin: 0px;
 }
 #Image_Decoding_Container p{
     font-family: "K2D", serif;
@@ -44,6 +51,10 @@
     margin: 10px;
 }
 
+#imageTab #certificate{
+  height: 300px;
+  background-color: #ededed;
+}
 @media (max-width: 900px) {
   #Image_Decoding_Container {
     width: 98%;
@@ -55,11 +66,14 @@
     align-items: center;
     gap: 16px;
   }
-
+  #extra{
+    height: 80px;
+  }
   #imageTab img {
     width: 90vw;
     max-width: 350px;
     height: auto;
+    padding: 2px;
     margin-bottom: 10px;
   }
 
@@ -91,6 +105,10 @@
   #Image_Decoding_Container h1 {
     font-size: 1.5rem;
     text-align: center;
+  }
+  #mergeImg{
+    display: flex;
+    flex-direction: column;
   }
   #Image_Decoding_Container p {
     font-size: 15px;
