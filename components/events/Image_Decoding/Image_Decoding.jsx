@@ -16,19 +16,19 @@ const Image_Decoding = () => {
             <div id="imageTab">
                 <div  >
                 <img src="/publicImage/imageDecoder1.jpg" alt="loading..."  />
-                <p style={{fontSize:12, color:'#222222', textAlign:'center', marginTop:'-2px'}} >images & certificate received in 2019</p>
+                <p style={{fontSize:12, color:'#222222', textAlign:'center', marginTop:'-2px'}} >image received in 2019</p>
                 </div>
                 <div>
                 <img src="/publicImage/imageDecoder2.jpg" alt="loading..." />
-                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >images & certificate received in 2019</p>
+                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >image received in 2019</p>
                 </div>
                 <div>
                 <img src="/publicImage/imageDecoder3.jpg" alt="loading..." />
-                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >images & certificate received in 2019</p>
+                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >certificate received on Feb 17 2019</p>
                 </div>
                 <div>
                 <img src="/publicImage/imageDecoder4.jpg" alt="loading..." />
-                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >images & certificate received in 2019</p>
+                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >certificate received on Feb 10 2019</p>
                 </div>
             </div>
             
@@ -42,15 +42,15 @@ const Image_Decoding = () => {
                          <div id="mergeImg">
                 <div>    
                 <img src="/publicImage/imageDecoder5.jpg" alt="loading..." />
-                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >images & certificate received in 2019</p>
+                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >image received in 2025</p>
                 </div>
                 <div>
                 <img src="/publicImage/imageDecoder6.jpg" alt="loading..." />
-                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >images & certificate received in 2019</p>
+                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >image received in 2025 </p>
                 </div>
                 <div>
                 <img id='certificate' src="/publicImage/imageDecoder7.jpg" alt="loading..." />
-                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >images & certificate received in 2019</p>
+                <p style={{fontSize:12, color:'#222222', textAlign:'center' , marginTop:'-2px'}} >certificate received on 20 July 2025</p>
                 </div>
                 </div>
                     <p>This hands-on activity involved not only technical skills in radio reception and image decoding but also a deeper connection with the history of human spaceflight. In recognition of the successful image reception, an official SSTV Award Certificate (No. 282703) was issued by ARISS, adding yet another achievement to our club’s growing legacy in space communication initiatives.</p>
